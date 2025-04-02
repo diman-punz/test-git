@@ -1,0 +1,15 @@
+[ important when you first install github ]
+git config --global user.name "your github username"
+git config --global user.email "your github email"
+
+
+
+git init - initializes a .git folder which is used to run github command
+
+git branch -M main  - change the branch name into main
+
+git remote add origin "repo ko link"     (afno laptop ko code lai github sanga communicate garaune)
+
+git add .  (add all files to staging area)
+git commit -m "your message"  ( checkpoint message )
+git push  ( Sending code to github  )
